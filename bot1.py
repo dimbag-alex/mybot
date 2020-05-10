@@ -9,7 +9,7 @@ import telebot  # для работы с ботом
 from pycbrf.toolbox import ExchangeRates  # для работы с базой данных Центробанка
 
 # токен
-bot = telebot.TeleBot('1125432380:AAE5heK6G69ZM6Dz2nmBrpBpHjL0G0Is63E')
+bot = telebot.TeleBot('')
 # дата
 today = datetime.datetime.today()
 datenow = today.strftime("%Y-%m-%d-%H.%M.%S")[0:-9]
