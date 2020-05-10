@@ -1,6 +1,6 @@
 datetime
 COVID19Py
 requests
-telebot
+pytelegrambotapi
 pycbrf
 
