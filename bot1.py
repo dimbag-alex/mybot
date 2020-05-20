@@ -67,7 +67,7 @@ def send_text(message):
 
     # иена
     if message.text.lower() == 'японская иена' or message.text.lower() == "иена":
-        bot.send_message(message.chat.id, f"Одна японская иена стоит {str(rates['JPY'][4])} руб.")
+        bot.send_message(message.chat.id, f"Сто японских иен стоят {str(rates['JPY'][4])} руб.")
 
     # фунт
     if message.text.lower() == 'британский фунт стерлингов' or message.text.lower() == 'фунт' or \
